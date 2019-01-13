@@ -1,0 +1,323 @@
+body{
+	background:#fff;
+}
+a {
+	text-decoration:none;
+}
+div#main{
+	width:100%;
+	height:auto;
+	margin-left:0%;
+	border-radius:0%;
+	float:left;
+	color:#101135;
+	background-color:white;
+	margin-bottom:0.2em;
+}
+div.head {
+	width:70%;
+}
+
+.head h3
+{
+	font-weight:bold;
+	margin-top:-2em;
+}
+div.bottom{
+	width:50%;
+	height:auto;
+	margin-left:9%;
+	margin-top:1em;
+	border-radius:10%;
+	float:left;
+	background-color:white;
+	border:0px solid green;
+}
+
+div#visit{
+	width:30%;
+	height:auto;
+	margin-top:0.7em;
+	border-radius:10%;
+	float:left;
+	font-size:2em;
+	color:#95adcf;
+	background-color:white;
+	border:0px solid green;
+}
+
+#visit a{
+	text-decoration:none;
+	color:#95adcf;
+	float:right;
+}
+
+.floorplan {
+	width:500px;
+	border:0px solid green;
+}
+
+.flooorplan img {
+	width:80%;
+}
+/* these is used in other pages other than the index */
+
+div#pagesmain{
+	margin-top:0.0em;
+	width:100%;
+	height:auto;
+	border-radius:0%;
+	float:left;
+	color:#101135;
+	background-color:white;
+	border:0px solid red;
+	
+}
+
+div#header{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#101135;
+	background-color:;
+	border:0px solid green;
+	
+}
+div #logo{
+	width:50%;
+	height:auto;
+	float:left;
+	color:#101135;
+	font-weight:bolder;
+	background-color:;
+	border:0px solid green;
+	
+}
+
+div #social{
+	
+	width: 5px;
+	height: 52px
+	
+}
+
+div #banner{
+	
+	width:100%;
+	height:auto;
+	float:left;
+	color:#101135;
+	padding-top: 5px;
+	padding-left:;
+	border:0px solid green;
+	
+}
+
+
+
+ 
+ 
+div#contact{
+	width:25%;
+	height:auto;
+	float:left;
+	color:#101135;
+	font-size:0.8em;
+	background-color:;
+	padding-left:3em;
+	border:0px solid green;
+	
+}
+div#contact_mobile{
+	width:80%;
+	height:auto;
+	float:left;
+	color:#101135;
+	font-size:0.8em;
+	background-color:;
+	padding-left:3em;
+	border:0px solid green;
+	display:none;
+	
+}
+div#images{
+	width:30%;
+	float:left;
+	color:#101135;
+	border:0px solid green;
+	padding:1em;
+}
+
+div#images span{
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	margin-left:33%;
+	border:0px solid green;
+	
+}
+
+div#images img{
+	width:93%;
+	border:0px solid green;
+	
+	
+}
+
+div.enlargedImage{
+	width:50%;
+	float:left;
+	color:#101135;
+	border:0px solid green;
+	padding:1em;
+}
+
+div.details{
+	width:35%;
+	float:left;
+	margin-left:30px;
+	color:#101135;
+	border:0px solid green;
+	padding:1em;
+}
+
+.details li{
+	list-style:none;
+	line-height:2em;
+	font-weight:bolder;
+	
+}
+
+div#menu{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#101135;
+	background-color:#e2e2f9;
+	font-weight: Bold;
+	border:0px solid green;
+	
+}
+
+ #menu ul {
+	margin: 0;
+	padding: 0;
+	}
+
+#menu ul li {
+	list-style: none;
+	float: left;
+	font-size: 93%;
+	
+}
+
+#menu ul li a {
+	display: block;
+	font-weight: bold;
+	padding: .625em 3.5em; /* 10px 15px */
+	text-decoration: none;
+	color: #101135;
+	border-right: 1px solid grey;
+}
+
+#menu li a:hover{
+	 color:orange;
+	 text-transform:uppercase;
+ }
+ #menu li a.active{
+	 color:orange;
+	 text-transform:uppercase;
+ }
+ 
+div#content{
+	width:97%;
+	height:auto;
+	float:left;
+	color:#101135;
+	background-color:;
+	padding-left:2em;
+	padding-right:2em;
+	border:0px solid green;
+}
+
+#content form p{
+	width:60%;
+	margin-left:25%;
+	border:0px solid green;
+	
+}
+
+#content form h2{
+	text-align:center;
+	
+}
+
+#name, #mobile, textarea, #country {
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	width:30em;
+	
+}
+
+input {
+	height:2em;
+	
+}
+ .opentime
+ {
+	 width:auto;
+	 margin-left:40%; 
+	 font-weight:bolder;
+ }
+ .username{
+	 border: 0px solid blue;
+	 width:10em;
+	 font-weight:bold;
+	 float:left;
+	 text-align:right;
+	 margin-right:3%;
+	 
+ }
+div#footer{
+	width:97%;
+	height:auto;
+	float:left;
+	color:#101135;
+	background-color:;
+	border:0px solid green;
+}
+
+/*for gallery*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 40%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 850px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+

@@ -1,0 +1,156 @@
+@media screen and (max-width:500px)
+{
+div#main:
+{
+	width:100%;
+	margin-left:0%;
+}
+div.head {
+	width:100%;
+}
+
+.head h3
+{
+	font-weight:bold;
+	font-size:0.8em;
+	margin-top:0em;
+}
+.floorplan {
+	width:100%;
+	border:0px solid red;
+}
+
+.flooorplan img {
+	max-width:88%;
+	height:auto;
+}	
+
+div.bottom{
+	width:90%;
+	height:auto;
+	padding-left:1%;
+	margin-top:1em;
+	margin-left:0;
+	font-size:1em;
+}
+div#visit{
+	width:60%;
+	
+}
+
+#visit a{
+	text-decoration:none;
+	color:#95adcf;
+	text-align:left;
+	font-size:0.7em;
+}
+
+
+
+div#pagesmain{
+	
+	width:100%;
+	margin-left:0%;
+	margin-right:0%;
+}
+#logo 
+{
+	width:100%;
+	float:right;
+}
+
+#logo img{
+	width:140%;
+	border:0px solid green;
+}
+#menu ul li{
+   width:33%;
+  } 
+  
+  div#contact_mobile{
+	  display:block;
+  }
+  
+  div#contact {
+	  display:none;
+  }
+  
+  #content {
+	  width:95%;
+	 padding-left:0em;
+	padding-right:0em;
+  }
+  
+  #content p {
+	  font-size:0.7em;
+  }
+  
+   #content h2 {
+	  font-size:1.2em;
+  } 
+  
+  #content form p{
+	width:100%;
+	margin-left:0%;
+	border:0px solid green;
+	
+}
+
+#content form h2{
+	text-align:center;
+	
+}
+
+#name, #mobile, textarea, #country {
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	width:90%;
+	
+}
+
+input {
+	height:2em;
+	
+}
+
+ .username{
+	 border: 0px solid blue;
+	 width:10em;
+	 font-weight:bold;
+	 float:left;
+	 font-size:1.5em;
+	 text-align:left;
+	 margin-right:0%;
+	 
+ }
+  div#images{
+	width:100%;
+}
+
+
+div.enlargedImage{
+	width:100%;
+	border:0px solid blue;
+	
+}
+div.enlargedImage img {
+	width:93%;
+	
+}
+div.details{ 
+   width:100%;
+   font-size:0.8em;
+   border:0px solid blue;
+   margin-left:0px;
+}
+
+ .opentime
+ {
+	 width:100%;
+	 margin-left:0px;
+	 font-size:1.5em;
+	 text-align:center;
+ }
+#footer p{
+	font-size:0.8em;
+}
+}

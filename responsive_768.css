@@ -1,0 +1,117 @@
+/*iPad size  ****************************************/
+@media screen and (max-width:768px)
+{
+	div#main:
+{
+	width:100%;
+	margin-left:0;
+}
+div.head {
+	width:70%;
+}
+
+.head h3
+{
+	font-weight:bold;
+	margin-top:-1em;
+}
+	.floorplan 
+	{
+	width:450px;
+	border:0px solid red;
+	float:;
+     }
+
+  .flooorplan img {
+	max-width:90%;
+	height:auto;
+}
+ .bottom{
+	width:100%;
+	height:auto;
+	padding-left:1%;
+	margin-left:0;
+	margin-top:1em;	
+	float:;
+	background-color:white;
+	border:0px solid green;
+}
+div#visit{
+	width:100%;
+	height:auto;
+	margin-left:;
+	border-radius:10%;
+	float:left;
+	font-size:2em;
+	color:#95adcf;
+	background-color:white;
+	border:0px solid green;
+}
+
+#visit a{
+	text-decoration:none;
+	color:#95adcf;
+	float:right;
+}
+div#pagesmain{
+	
+	width:100%;
+	margin-left:0%;
+	margin-right:0%;
+	border:0px solid green;
+}
+#logo 
+{
+	width:100%;
+	float:right;
+}
+
+#logo img{
+	width:100%;
+}
+
+#menu ul li{
+	 width:25%;
+	 
+}
+#menu ul li a {
+	font-size: 0.9em;
+}
+div#images{
+	width:40%;
+}
+div#contact{
+	width:69%;
+	padding-left:30%;
+	font-weight:bold;
+	font-size:0.8em;
+}
+
+div#content{
+	width:95%;
+	height:auto;
+	float:left;
+	color:#101135;
+	background-color:;
+	padding:0.2em;
+	
+}
+div.enlargedImage{
+	width:90%;
+	border:0px solid blue;
+	
+}
+div.enlargedImage img {
+	width:100%;
+	
+}
+div.details{ 
+   width:100%;
+   font-size:0.8em;
+   border:0px solid blue;
+   margin-left:0px;
+}
+
+}
+
+
